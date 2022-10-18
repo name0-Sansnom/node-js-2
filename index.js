@@ -18,7 +18,7 @@ port = 8000;
 
 // i then bing link string to connect my database to backend
 mongoose
-  .connect("mongodb://localhost:27017/Users", {
+  .connect("mongodb+srv://admin:1234@cluster0.3zjxv24.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
